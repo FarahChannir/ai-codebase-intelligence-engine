@@ -1,0 +1,477 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="thloSkBPXgjovwSefw48">
+    <mxGraphModel dx="2066" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-1" value="&lt;p style=&quot;margin-bottom:3.0pt&quot; class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 22px;&quot;&gt;AI Codebase Intelligence Engine&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-YBbFMyS5UX9r6KZNNoy-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+          <mxGeometry x="30" y="220" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;entryX=-0.014;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="-YBbFMyS5UX9r6KZNNoy-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="255" as="targetPoint" />
+            <mxPoint x="405" y="255" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#ABFF88;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="272.5" y="690" as="targetPoint" />
+            <mxPoint x="272.5" y="285" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-15" value="" style="swimlane;startSize=0;strokeColor=#00CCCC;" parent="1" vertex="1">
+          <mxGeometry x="490" y="144" width="290" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-14" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="500" y="174" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-12" value="&lt;font style=&quot;font-size: 17px; color: rgb(11, 255, 19);&quot;&gt;&lt;b&gt;Git connector&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(&lt;font style=&quot;font-size: 11px;&quot;&gt;Clones repos via HTTPS or SSH. Supports GitHub, GitLab, Azure DevOps&lt;/font&gt;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="-YBbFMyS5UX9r6KZNNoy-14" vertex="1">
+          <mxGeometry width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-13" value="&lt;font style=&quot;font-size: 16px; color: rgb(16, 255, 32);&quot;&gt;&lt;b&gt;File system reader&lt;/b&gt;&lt;/font&gt;&lt;div&gt;(&lt;font style=&quot;font-size: 11px;&quot;&gt;Reads uploaded zip files or local folders. Walks directories recursively&lt;/font&gt;)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="-YBbFMyS5UX9r6KZNNoy-14" vertex="1">
+          <mxGeometry y="80" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-29" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b style=&quot;&quot;&gt;1&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="140" y="167" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-33" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b style=&quot;&quot;&gt;2&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="138" y="642" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-35" value="&lt;font style=&quot;font-size: 17px; color: rgb(255, 239, 19);&quot;&gt;Ingestion layer&lt;/font&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;(Reads the codebase from any source)&lt;/b&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="220" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-36" value="&lt;font style=&quot;font-size: 17px; color: rgb(255, 239, 19);&quot;&gt;Ingestion layer&lt;/font&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;(&lt;/b&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Breaks code into meaningful units&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;)&lt;/b&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="138" y="690" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px; color: rgb(255, 51, 51);&quot;&gt;C#&amp;nbsp; &amp;nbsp;/&amp;nbsp; Git&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="320" y="182" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-40" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Roslyn / Tree-sitter&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="290" y="642" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#FF3333;" parent="1" source="-YBbFMyS5UX9r6KZNNoy-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-41" value="" style="swimlane;startSize=0;strokeColor=#15EFFF;" parent="1" vertex="1">
+          <mxGeometry x="510" y="610" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-44" value="" style="group" parent="-YBbFMyS5UX9r6KZNNoy-41" vertex="1" connectable="0">
+          <mxGeometry x="20" y="20" width="290" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-42" value="&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;C# AST parser (Roslyn)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;(&lt;font&gt;Extracts every class, method, property, interface with its full code and XML doc comments&lt;/font&gt;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="-YBbFMyS5UX9r6KZNNoy-44" vertex="1">
+          <mxGeometry width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-43" value="&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Python parser (Tree-sitter)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;(&lt;font&gt;Same for Python files — extracts functions, classes, docstrings.&lt;/font&gt;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="-YBbFMyS5UX9r6KZNNoy-44" vertex="1">
+          <mxGeometry y="110" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-48" value="" style="swimlane;startSize=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="910" y="560" width="350" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#FF3333;" parent="-YBbFMyS5UX9r6KZNNoy-48" source="-YBbFMyS5UX9r6KZNNoy-45" target="-YBbFMyS5UX9r6KZNNoy-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-45" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Semantic chunker&lt;/font&gt;&lt;br&gt;(Decides chunk boundaries: one method = one chunk.)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="-YBbFMyS5UX9r6KZNNoy-48" vertex="1">
+          <mxGeometry x="55" y="15" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;strokeWidth=5;" parent="-YBbFMyS5UX9r6KZNNoy-48" source="-YBbFMyS5UX9r6KZNNoy-46" target="-YBbFMyS5UX9r6KZNNoy-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-46" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Metadata extractor&lt;/font&gt;&lt;br&gt;(&lt;span style=&quot;background-color: transparent;&quot;&gt;For each chunk: file path, line numbers, class name, method name, dependencies, last&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;modified date.&lt;/span&gt;.)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="-YBbFMyS5UX9r6KZNNoy-48" vertex="1">
+          <mxGeometry x="50" y="125" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-47" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Chunk serializer&lt;/font&gt;&lt;br&gt;(Converts each chunk to a JSON object ready for embedding: { content, metadata }.)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=5;strokeColor=default;" parent="-YBbFMyS5UX9r6KZNNoy-48" vertex="1">
+          <mxGeometry x="50" y="245" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-53" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
+          <mxGeometry x="910" y="97" width="325" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-24" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Change detector&lt;/font&gt;&lt;br&gt;(On re-index, only re-processes files that changed since last run (git diff))" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="-YBbFMyS5UX9r6KZNNoy-53" vertex="1">
+          <mxGeometry x="32.5" y="240" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#FF3333;" parent="-YBbFMyS5UX9r6KZNNoy-53" source="-YBbFMyS5UX9r6KZNNoy-18" target="-YBbFMyS5UX9r6KZNNoy-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-18" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Language detector&lt;/font&gt;&lt;br&gt;(Detects if each file is C#, Python, JS, etc. so the right parser is used)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="-YBbFMyS5UX9r6KZNNoy-53" vertex="1">
+          <mxGeometry x="32.5" y="20" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-20" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;File filter&lt;/font&gt;&lt;br&gt;(Ignores .gitignore patterns, node_modules, bin/, obj/ — things that are not source code.)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="-YBbFMyS5UX9r6KZNNoy-53" vertex="1">
+          <mxGeometry x="28.75" y="135" width="267.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#FF3333;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="299" as="sourcePoint" />
+            <mxPoint x="1070" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.477;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;strokeColor=#FF3333;" parent="1" source="-YBbFMyS5UX9r6KZNNoy-15" target="-YBbFMyS5UX9r6KZNNoy-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;entryX=-0.014;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="501" y="733" as="targetPoint" />
+            <mxPoint x="420" y="733" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-60" value="&lt;font style=&quot;font-size: 17px; color: rgb(255, 239, 19);&quot;&gt;Embedding layer&lt;/font&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;(&lt;/b&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Converts text chunks to vectors&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;)&lt;/b&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="138" y="1182" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-62" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b style=&quot;&quot;&gt;3&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="140" y="1140" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#ABFF88;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279.41" y="1175" as="targetPoint" />
+            <mxPoint x="279.41" y="770" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-1" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;OpenAI / Claude API&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="310" y="1140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=5;strokeWidth=4;strokeColor=#CC0000;" parent="1" source="b86p7jlrqjlCKbmRjDID-3" target="b86p7jlrqjlCKbmRjDID-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-3" value="&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Background job queue&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;Embedding a large repo takes minutes. This runs as a background job so the user does not wait." style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1160" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00FFFF;strokeWidth=4;" parent="1" source="b86p7jlrqjlCKbmRjDID-5" target="b86p7jlrqjlCKbmRjDID-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1005" y="1420" />
+              <mxPoint x="667" y="1420" />
+              <mxPoint x="667" y="1480" />
+              <mxPoint x="268" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-5" value="&lt;div&gt;&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;b&gt;Embedding cache check&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Has this chunk been&lt;br&gt;embedded before?&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="1152.5" width="250" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;strokeWidth=4;strokeColor=#FF3333;" parent="1" source="b86p7jlrqjlCKbmRjDID-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-9" value="" style="swimlane;startSize=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="1235" y="1000" width="350" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#FF3333;" parent="b86p7jlrqjlCKbmRjDID-9" source="b86p7jlrqjlCKbmRjDID-11" target="b86p7jlrqjlCKbmRjDID-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-11" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Batch processor&lt;/font&gt;&lt;br&gt;Groups chunks into batches of 100 to reduce API calls. Handles rate limits and retries." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-9" vertex="1">
+          <mxGeometry x="55" y="15" width="230" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-13" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Embedding API client&lt;/font&gt;&lt;br&gt;Calls OpenAI text-embedding-3-small or similar. Sends chunk content, gets back a 1536-number vector." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-9" vertex="1">
+          <mxGeometry x="50" y="160" width="240" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;entryX=-0.014;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="491" y="1227" as="targetPoint" />
+            <mxPoint x="410" y="1227" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=light-dark(#001DBC,#00FFFF);fillColor=#0050ef;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1005" y="1153.5" as="sourcePoint" />
+            <mxPoint x="1240" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1005" y="1131" />
+              <mxPoint x="1234" y="1131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-18" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;&quot;&gt;No&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="1090" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#CC0000;" parent="1" source="b86p7jlrqjlCKbmRjDID-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-21" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Embedding cache&lt;/font&gt;&lt;br&gt;Stores the vector for each chunk. If the chunk did not change,&lt;div&gt;&amp;nbsp;the cached vector is reused — no API call needed.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=5;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1222" y="1410" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-22" value="&lt;font style=&quot;font-size: 17px; color: rgb(255, 239, 19);&quot;&gt;Vector database&lt;/font&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;(Stores and searches vectors)&lt;/b&gt;&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="128" y="1522" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-23" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b style=&quot;&quot;&gt;4&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1480" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-24" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;Qdrant / pgvector&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="1487.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;entryX=0.463;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="b86p7jlrqjlCKbmRjDID-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="883" y="1575" as="targetPoint" />
+            <mxPoint x="802" y="1575" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-27" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Yes&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="840" y="1380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-30" value="" style="swimlane;startSize=0;fillColor=#CCFFFF;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="890" y="1677" width="350" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#FF3333;" parent="b86p7jlrqjlCKbmRjDID-30" source="b86p7jlrqjlCKbmRjDID-32" target="b86p7jlrqjlCKbmRjDID-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-32" value="&lt;div&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Namespace isolation&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;First: create a collection for this&lt;/div&gt;&lt;div&gt;user/org. Isolates their code.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-30" vertex="1">
+          <mxGeometry x="60" y="100" width="230" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-33" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Vector store&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;Then: save each chunk vector&lt;/div&gt;&lt;div&gt;+ its metadata into that collection.&lt;/div&gt;&lt;div&gt;Done once per chunk. Saved forever.&lt;/div&gt;&lt;div&gt;(until code changes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-30" vertex="1">
+          <mxGeometry x="55" y="245" width="245" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-38" value="&lt;div&gt;&lt;font style=&quot;color: rgb(24, 216, 255);&quot;&gt;&lt;b&gt;MOMENT 1&amp;nbsp;&lt;/b&gt;&lt;br&gt;&amp;nbsp;Indexing time&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(24, 216, 255);&quot;&gt;When user uploads a repo&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="b86p7jlrqjlCKbmRjDID-30" vertex="1">
+          <mxGeometry x="30" y="10" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-39" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="1661" width="350" height="589" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#FF3333;" parent="b86p7jlrqjlCKbmRjDID-39" source="b86p7jlrqjlCKbmRjDID-41" target="b86p7jlrqjlCKbmRjDID-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-41" value="&lt;div&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Namespace isolation&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;First: scope the search to only&lt;/div&gt;&lt;div&gt;this user&#39;s collection.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-39" vertex="1">
+          <mxGeometry x="50" y="80" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#CC0000;" parent="b86p7jlrqjlCKbmRjDID-39" source="b86p7jlrqjlCKbmRjDID-42" target="b86p7jlrqjlCKbmRjDID-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-42" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Metadata filters&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;Optional: narrow search to&lt;/div&gt;&lt;div&gt;specific language, folder, class.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-39" vertex="1">
+          <mxGeometry x="57.5" y="210" width="245" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-43" value="&lt;font style=&quot;color: rgb(24, 216, 255);&quot;&gt;&lt;b style=&quot;color: rgb(24, 216, 255);&quot;&gt;MOMENT 2&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#18d8ff&quot;&gt;Query time&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(24, 216, 255); background-color: transparent;&quot;&gt;When user asks a question&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="b86p7jlrqjlCKbmRjDID-39" vertex="1">
+          <mxGeometry x="55" y="10" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#CC0000;" parent="b86p7jlrqjlCKbmRjDID-39" source="b86p7jlrqjlCKbmRjDID-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="181" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-46" value="&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Similarity search&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;Run the actual search: find top-5&lt;/div&gt;&lt;div&gt;chunks closest to the query vector.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-39" vertex="1">
+          <mxGeometry x="57.5" y="350" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-52" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 17px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;Returns top-5 chunks&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 17px;&quot;&gt;&lt;b&gt;with content + metadata + score&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=solid;fillColor=#FFFF66;" parent="b86p7jlrqjlCKbmRjDID-39" vertex="1">
+          <mxGeometry x="57.5" y="489" width="265" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="b86p7jlrqjlCKbmRjDID-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="1660" as="targetPoint" />
+            <mxPoint x="1281.75" y="1586" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" parent="1" source="b86p7jlrqjlCKbmRjDID-53" target="b86p7jlrqjlCKbmRjDID-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-53" value="&lt;font style=&quot;font-size: 17px; color: rgb(255, 239, 19);&quot;&gt;RAG query layer&lt;/font&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;(&lt;/b&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Finds relevant chunks and asks&lt;br&gt;&amp;nbsp;the LLM&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;)&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="138" y="2312" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-54" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b style=&quot;&quot;&gt;5&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="140" y="2270" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-55" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;Claude API / LangChain&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="280" y="2270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-56" value="&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot; color=&quot;#0bff13&quot;&gt;&lt;b style=&quot;&quot;&gt;User types a question&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;how does payment processing work&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="1021" y="2304.5" width="230" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#3333FF;" parent="1" source="b86p7jlrqjlCKbmRjDID-59" target="b86p7jlrqjlCKbmRjDID-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-59" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Query embedder&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Embeds the user&#39;s question the same way chunks were embedded, so similarity search works.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Retriever&lt;br&gt;&lt;br&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Embeds the user&#39;s question the same way chunks were embedded, so similarity search works.&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Retriever&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="947" y="2504" width="390" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#FF401A;" parent="1" source="b86p7jlrqjlCKbmRjDID-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1136" y="2500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=4;" parent="1" source="b86p7jlrqjlCKbmRjDID-62" target="b86p7jlrqjlCKbmRjDID-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-62" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px; color: rgb(51, 255, 255);&quot;&gt;OUTPUT: query vector — &lt;br&gt;same shape as chunk vectors&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1003" y="2749" width="278" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;strokeWidth=4;" parent="1" source="b86p7jlrqjlCKbmRjDID-67" target="b86p7jlrqjlCKbmRjDID-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-67" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&amp;nbsp;Retriever&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Queries the vector DB. Gets top 5–10 chunks most relevant to the question.&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;b style=&quot;background-color: transparent; font-size: 14px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Sends query vector to Qdrant&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;&lt;b&gt;Gets back top 10 most similar chunks + scores&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="947" y="2910" width="390" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;strokeWidth=4;" parent="1" source="b86p7jlrqjlCKbmRjDID-72" target="b86p7jlrqjlCKbmRjDID-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-72" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Re-ranker&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Optional but powerful: re-orders the retrieved chunks by relevance before sending to LLM.&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;Reads the question AND each chunk together.&lt;/div&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;Re-scores them more carefully.&lt;/div&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;May reorder or drop low-quality chunks.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="947" y="3148" width="390" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-77" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(31, 225, 255); font-size: 14px;&quot;&gt;score: 0.94 → PaymentService.ProcessAsync() ← most relevant&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(31, 225, 255); font-size: 14px;&quot;&gt;score: 0.89 → StripeGateway.ChargeAsync()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(31, 225, 255); font-size: 14px;&quot;&gt;score: 0.81 → OrderService.CreateOrderAsync()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(31, 225, 255); font-size: 14px;&quot;&gt;score: 0.74 → RefundService.ProcessRefund() ← less relevan&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=0.02;base=100;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="2870" width="470" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;strokeWidth=4;" parent="1" source="b86p7jlrqjlCKbmRjDID-78" target="b86p7jlrqjlCKbmRjDID-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-78" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px; text-wrap-mode: nowrap;&quot;&gt;&lt;font face=&quot;Anthropic Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif&quot; color=&quot;#33ffff&quot;&gt;&lt;b&gt;OUTPUT: top 5 chunks —&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px; text-wrap-mode: nowrap;&quot;&gt;&lt;font face=&quot;Anthropic Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif&quot; color=&quot;#33ffff&quot;&gt;&lt;b&gt;reordered, trimmed, best quality&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1003" y="3360" width="278" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;strokeWidth=5;" parent="1" source="b86p7jlrqjlCKbmRjDID-84" target="b86p7jlrqjlCKbmRjDID-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-84" value="&lt;font style=&quot;color: rgb(11, 255, 19); font-size: 19px;&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;b style=&quot;&quot;&gt;Prompt builder&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;div&gt;&lt;b&gt;&lt;div&gt;Assembles: system instructions + chunks + question&lt;/div&gt;&lt;div&gt;Checks it fits inside the context window&lt;/div&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="947" y="3550" width="390" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-88" value="&lt;div&gt;&lt;font color=&quot;#1fe1ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[SYSTEM] You are a code expert. Answer only from the code below.&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1fe1ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[CHUNK 1] // PaymentService.cs line 12&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1fe1ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;public async Task ProcessAsync(...) { ... }&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1fe1ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[CHUNK 2] // StripeGateway.cs line 45 ...&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1fe1ff&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[USER] how does payment processing work?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=0;base=100;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="3460" width="470" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-91" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot; color=&quot;#0bff13&quot;&gt;&lt;b style=&quot;&quot;&gt;LLM client&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Sends prompt to Claude / GPT-4&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Streams tokens back as they are &lt;/font&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;generated&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=8;strokeColor=#FFFF00;" parent="1" vertex="1">
+          <mxGeometry x="947" y="3790" width="390" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1FE1FF;strokeWidth=4;" parent="1" source="b86p7jlrqjlCKbmRjDID-93" target="b86p7jlrqjlCKbmRjDID-97" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-93" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Source tracker&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;b&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;Records which chunks were used&lt;/div&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;Attaches file paths + line numbers to the answer&lt;/div&gt;&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="939" y="4070" width="390" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.521;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;strokeWidth=5;" parent="1" source="b86p7jlrqjlCKbmRjDID-91" target="b86p7jlrqjlCKbmRjDID-93" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-97" value="&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;b style=&quot;font-size: 19px; color: rgb(11, 255, 19); background-color: transparent;&quot;&gt;Answer sent to user&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;div style=&quot;font-size: 19px; font-weight: bold; direction: rtl;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;()Payment flows through ProcessAsync&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Sources: PaymentService.cs:12, StripeGateway.cs:45&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=8;align=center;strokeColor=#2CF7FF;" parent="1" vertex="1">
+          <mxGeometry x="915.5" y="4320" width="437" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" parent="1" source="b86p7jlrqjlCKbmRjDID-99" target="b86p7jlrqjlCKbmRjDID-102" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-99" value="&lt;font style=&quot;font-size: 17px; color: rgb(255, 239, 19);&quot;&gt;Backend API&lt;/font&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;(&lt;/b&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Exposes everything as REST &lt;br&gt;endpoints&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;)&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="175" y="4802" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-100" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b style=&quot;&quot;&gt;6&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="177" y="4760" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-101" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;ASP.NET Core&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="317" y="4760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#FF3333;" parent="1" source="b86p7jlrqjlCKbmRjDID-102" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1148.5294117647059" y="5030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-102" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
+          <mxGeometry x="839" y="4744" width="618" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;strokeWidth=4;" parent="b86p7jlrqjlCKbmRjDID-102" source="b86p7jlrqjlCKbmRjDID-105" target="b86p7jlrqjlCKbmRjDID-107" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-105" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Auth &amp;amp; JWT&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Is this request from a real&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;logged-in user?&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-102" vertex="1">
+          <mxGeometry x="22" y="32" width="258" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-107" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Multi-tenancy&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;What org does this user belong to?&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Scopes all data to their org&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-102" vertex="1">
+          <mxGeometry x="340" y="32" width="250" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-104" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: rgb(102, 255, 102); font-size: 17px;&quot;&gt;&lt;b&gt;Every single request &lt;br&gt;— no exceptions&lt;br&gt;&amp;nbsp;— passes through these two first&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;perimeterSpacing=1;strokeColor=default;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="4650" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-111" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
+          <mxGeometry x="730" y="5028" width="950" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-112" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 51);&quot;&gt;UPLOADING A REPO&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px; color: rgb(0, 255, 0);&quot;&gt;Repository endpoints&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;POST /repos&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;GET /repos/{id}/status&lt;br&gt;(&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center; font-size: 17px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(44, 247, 255);&quot;&gt;to check indexing progress&lt;/font&gt;.&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-111" vertex="1">
+          <mxGeometry x="20" y="50" width="258" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-115" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#ffff33&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;&lt;br&gt;ASKING A QUESTION&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px; color: rgb(0, 255, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;Query endpoint&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;POST /query&lt;/b&gt;&lt;b style=&quot;&quot;&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;triggers full RAG pipeline&lt;br&gt;(&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 17px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(44, 247, 255);&quot;&gt;returns the answer with source citations&lt;/font&gt;.&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-111" vertex="1">
+          <mxGeometry x="306" y="50" width="258" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-116" value="&lt;font&gt;&lt;div style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#ffff33&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;EVERY QUERY&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 19px; color: rgb(42, 226, 72);&quot;&gt;&lt;b style=&quot;&quot;&gt;Rate limiter&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Runs before query executes&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Blocks if limit exceeded&lt;/span&gt;&lt;br&gt;&lt;font color=&quot;#2cf7ff&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;(&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 17px;&quot;&gt;&lt;font color=&quot;#2cf7ff&quot;&gt;&lt;b&gt;Limits queries per user per minute&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 17px;&quot;&gt;&lt;font color=&quot;#2cf7ff&quot;&gt;&lt;b&gt;Prevents abuse and controls LLM API costs&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#2cf7ff&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="b86p7jlrqjlCKbmRjDID-111" vertex="1">
+          <mxGeometry x="590" y="50" width="330" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-117" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: rgb(44, 255, 51); font-size: 14px;&quot;&gt;Then routes to the correct endpoint based on what the user is doing&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;perimeterSpacing=1;strokeColor=none;dashed=1;" parent="b86p7jlrqjlCKbmRjDID-111" vertex="1">
+          <mxGeometry x="10" y="-8" width="427" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b86p7jlrqjlCKbmRjDID-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#FF3333;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1148.41" y="5250" as="sourcePoint" />
+            <mxPoint x="1149" y="5300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-1" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#ffff33&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Usage tracker&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Logs every query with timestamp,&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;user, repo, tokens used. Powers&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;billing and analytics.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&amp;nbsp; (&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: center; font-size: 17px;&quot;&gt;&lt;font color=&quot;#2cf7ff&quot;&gt;&lt;b&gt;Logs after query completes&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center; font-size: 17px;&quot;&gt;&lt;b&gt;.&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 17px;&quot;&gt;)&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="969" y="5305" width="387" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-4" value="&lt;font style=&quot;font-size: 17px; color: rgb(255, 239, 19);&quot;&gt;Frontend&lt;/font&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;(&lt;/b&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;The interface users see and use&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;)&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5592" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-5" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b style=&quot;&quot;&gt;7&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="152" y="5550" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-6" value="&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;React / HTML&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="292" y="5550" width="128" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;entryX=-0.013;entryY=0.378;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tYIIxpwcZHrplg3CnAYe-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433" y="5632.259999999999" as="sourcePoint" />
+            <mxPoint x="817" y="5631.259999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#FF3333;" edge="1" parent="1" source="tYIIxpwcZHrplg3CnAYe-8" target="tYIIxpwcZHrplg3CnAYe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-8" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Repository manager&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Upload zip / paste GitHub URL&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Shows a progress bar while&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;backend ingests + embeds the repo&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1009" y="5590" width="310" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-10" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Chat interface&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;User types question at the bottom&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Answer streams in above, token&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;&lt;b&gt;by token, in real time&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1009" y="5810" width="310" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-12" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Code renderer&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Any code block inside the&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;answer text gets syntax-highlighted&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="6020" width="310" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="tYIIxpwcZHrplg3CnAYe-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1004" y="6210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-14" value="&lt;font style=&quot;color: rgb(11, 255, 19);&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Source panel&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Shows the file citations from the&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;source tracker, clickable to view lines&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="849" y="6021" width="310" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.477;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;strokeColor=#FF0000;entryX=0.455;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tYIIxpwcZHrplg3CnAYe-10" target="tYIIxpwcZHrplg3CnAYe-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="5950" as="sourcePoint" />
+            <mxPoint x="970" y="6010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=4;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tYIIxpwcZHrplg3CnAYe-10" target="tYIIxpwcZHrplg3CnAYe-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1318" y="5950" as="sourcePoint" />
+            <mxPoint x="1150" y="6035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-18" value="&lt;font style=&quot;color: rgb(0, 0, 102); font-size: 23px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;br&gt;User reads the full answer&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;fillColor=#33FFFF;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="928" y="6211" width="460" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.885;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;" edge="1" parent="1" source="tYIIxpwcZHrplg3CnAYe-12" target="tYIIxpwcZHrplg3CnAYe-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="tYIIxpwcZHrplg3CnAYe-23" target="tYIIxpwcZHrplg3CnAYe-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1157" y="6440" />
+              <mxPoint x="1157" y="6440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-23" value="&lt;font style=&quot;color: rgb(11, 255, 19); font-size: 19px;&quot;&gt;&lt;font color=&quot;#0bff13&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;History&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Question + answer is silently saved&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;User can search/revisit it later,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;does not block the chat experience&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="937" y="6310" width="439" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-26" value="&lt;b&gt;End&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="6491" width="70" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
