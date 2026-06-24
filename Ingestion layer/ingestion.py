@@ -15,15 +15,17 @@ def walk_files(root: str) -> list[str]:
 
 
 
-ALWAYS_IGNORE_DIRS = {
-    "obj", "bin", ".git", "node_modules", ".vs", "__pycache__",
-    "dist", "build", ".idea", "Library", "Temp", "Logs", "ProjectSettings",
-}
+
 
 ALWAYS_IGNORE_EXTENSIONS = {
     ".meta", ".png", ".jpg", ".jpeg", ".gif", ".bmp", ".ico",
     ".fbx", ".wav", ".mp3", ".psd", ".ttf", ".otf",
-    ".dll", ".pdb", ".exe", ".so", ".dylib", ".cache",
+    ".dll", ".pdb", ".exe", ".so", ".dylib", ".cache",".gitignore",".vsconfig", ".utmp"
+}
+ALWAYS_IGNORE_DIRS = {
+    "obj", "bin", ".git", "node_modules", ".vs", "__pycache__",
+    "dist", "build", ".idea", "Library", "Temp", "Logs", "ProjectSettings",
+    ".utmp",
 }
 
 def load_gitignore_spec(repo_root: Path) -> pathspec.PathSpec | None:
@@ -40,7 +42,9 @@ def load_gitignore_spec(repo_root: Path) -> pathspec.PathSpec | None:
     except Exception:
         # a malformed .gitignore should never break ingestion
         return None
+    
 
+# filter_files applies a series of filters to the list of files, returning only those that should be kept
 def filter_files(files: list[str], repo_root: str) -> list[str]:
     repo_root_path = Path(repo_root)
     spec = load_gitignore_spec(repo_root_path)
@@ -81,3 +85,36 @@ def handle_zip_upload(zip_path: str) -> str:
     with zipfile.ZipFile(zip_path, "r") as zf:
         zf.extractall(dest)
     return dest
+
+
+
+#  Language detector
+EXT_TO_LANGUAGE = {
+    ".py": "python",
+    ".cs": "csharp",
+    ".razor": "razor",
+    ".js": "javascript",
+    ".ts": "typescript",
+    ".tsx": "typescript",
+    ".jsx": "javascript",
+    ".java": "java",
+    ".go": "go",
+    ".rb": "ruby",
+    ".rs": "rust",
+    ".html": "html",
+    ".css": "css",
+    ".cpp": "cpp",
+    ".c": "c",
+    ".shader": "hlsl",
+    ".cginc": "hlsl",
+}
+
+def detect_language(file_path: str) -> str | None:
+    """
+    file_path: a path from the filtered file list
+    returns: a language tag (e.g. "csharp", "python") or None if unrecognized
+    """
+    ext = Path(file_path).suffix.lower()
+    return EXT_TO_LANGUAGE.get(ext)
+
+
