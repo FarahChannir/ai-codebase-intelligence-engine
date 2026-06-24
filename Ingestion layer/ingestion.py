@@ -1,0 +1,83 @@
+from pathlib import Path
+import zipfile
+import tempfile
+import pathspec
+##### this will conatin this Steps: 
+#walk_files  and 
+#handle_zip_upload
+#filter_files
+
+### function that takes a root path and returns every file in it, including files in subdirectories
+def walk_files(root: str) -> list[str]:
+    root_path = Path(root)
+    return [str(p) for p in root_path.rglob("*") if p.is_file()]
+
+
+
+
+ALWAYS_IGNORE_DIRS = {
+    "obj", "bin", ".git", "node_modules", ".vs", "__pycache__",
+    "dist", "build", ".idea", "Library", "Temp", "Logs", "ProjectSettings",
+}
+
+ALWAYS_IGNORE_EXTENSIONS = {
+    ".meta", ".png", ".jpg", ".jpeg", ".gif", ".bmp", ".ico",
+    ".fbx", ".wav", ".mp3", ".psd", ".ttf", ".otf",
+    ".dll", ".pdb", ".exe", ".so", ".dylib", ".cache",
+}
+
+def load_gitignore_spec(repo_root: Path) -> pathspec.PathSpec | None:
+    """
+    Loads .gitignore if present. Returns None if missing or unreadable —
+    callers must treat None as 'no extra filtering, rely on hardcoded rules.'
+    """
+    gitignore_path = repo_root / ".gitignore"
+    if not gitignore_path.exists():
+        return None
+    try:
+        lines = gitignore_path.read_text(encoding="utf-8").splitlines()
+        return pathspec.PathSpec.from_lines("gitwildmatch", lines)
+    except Exception:
+        # a malformed .gitignore should never break ingestion
+        return None
+
+def filter_files(files: list[str], repo_root: str) -> list[str]:
+    repo_root_path = Path(repo_root)
+    spec = load_gitignore_spec(repo_root_path)
+
+    filtered = []
+
+    for file in files:
+        file_path = Path(file)
+
+        try:
+            relative_path = file_path.relative_to(repo_root_path)
+        except ValueError:
+            continue
+
+        relative_str = relative_path.as_posix()
+
+        # 1. hardcoded directory check — primary defense, always applies
+        if any(part in ALWAYS_IGNORE_DIRS for part in relative_path.parts):
+            continue
+
+        # 2. hardcoded extension check — primary defense, always applies
+        if file_path.suffix.lower() in ALWAYS_IGNORE_EXTENSIONS:
+            continue
+
+        # 3. gitignore — secondary, optional layer, only if it loaded cleanly
+        if spec and spec.match_file(relative_str):
+            continue
+
+        filtered.append(file)
+
+    return filtered
+
+
+
+#zip-upload path is a thin wrapper that just extracts first
+def handle_zip_upload(zip_path: str) -> str:
+    dest = tempfile.mkdtemp()
+    with zipfile.ZipFile(zip_path, "r") as zf:
+        zf.extractall(dest)
+    return dest
