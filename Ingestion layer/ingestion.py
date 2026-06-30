@@ -2,6 +2,8 @@ from pathlib import Path
 import zipfile
 import tempfile
 import pathspec
+import subprocess
+
 ##### this will conatin this Steps: 
 #walk_files  and 
 #handle_zip_upload
@@ -118,3 +120,30 @@ def detect_language(file_path: str) -> str | None:
     return EXT_TO_LANGUAGE.get(ext)
 
 
+
+def clone_repo(url: str, branch: str | None = None) -> str:
+    dest = tempfile.mkdtemp()
+    cmd = ["git", "clone", "--depth", "1"]
+    if branch:
+        cmd += ["--branch", branch]
+    cmd += [url, dest]
+    print(f"cloning {url} branch={branch or 'default'} into {dest}")
+    subprocess.run(cmd, check=True, capture_output=True)
+    return dest
+
+
+def clone_repo(url: str, branch: str | None = None, token: str | None = None) -> str:
+    dest = tempfile.mkdtemp()
+    
+    if token and url.startswith("https://"):
+        url = url.replace("https://", f"https://{token}@")
+    
+    cmd = ["git", "clone", "--depth", "1"]
+    if branch:
+        cmd += ["--branch", branch]
+    cmd += [url, dest]
+    
+    print(f"cloning branch={branch or 'default'} into {dest}")  
+    # note: don't print url here anymore — it now contains the token
+    subprocess.run(cmd, check=True, capture_output=True)
+    return dest
