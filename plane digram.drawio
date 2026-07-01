@@ -33,10 +33,10 @@
         <mxCell id="-YBbFMyS5UX9r6KZNNoy-14" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="500" y="174" width="270" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="-YBbFMyS5UX9r6KZNNoy-12" value="&lt;font style=&quot;font-size: 17px; color: rgb(11, 255, 19);&quot;&gt;&lt;b&gt;Git connector&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(&lt;font style=&quot;font-size: 11px;&quot;&gt;Clones repos via HTTPS or SSH. Supports GitHub, GitLab, Azure DevOps&lt;/font&gt;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="-YBbFMyS5UX9r6KZNNoy-14" vertex="1">
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-12" value="&lt;font style=&quot;font-size: 17px; color: rgb(11, 255, 19);&quot;&gt;&lt;b&gt;Git connector&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(&lt;font style=&quot;font-size: 11px;&quot;&gt;Clones repos via HTTPS or SSH. Supports GitHub, GitLab, Azure DevOps&lt;/font&gt;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="-YBbFMyS5UX9r6KZNNoy-14" vertex="1">
           <mxGeometry width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-YBbFMyS5UX9r6KZNNoy-13" value="&lt;font style=&quot;font-size: 16px; color: rgb(16, 255, 32);&quot;&gt;&lt;b&gt;File system reader&lt;/b&gt;&lt;/font&gt;&lt;div&gt;(&lt;font style=&quot;font-size: 11px;&quot;&gt;Reads uploaded zip files or local folders. Walks directories recursively&lt;/font&gt;)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="-YBbFMyS5UX9r6KZNNoy-14" vertex="1">
+        <mxCell id="-YBbFMyS5UX9r6KZNNoy-13" value="&lt;font style=&quot;font-size: 16px; color: rgb(16, 255, 32);&quot;&gt;&lt;b&gt;File system reader&lt;/b&gt;&lt;/font&gt;&lt;div&gt;(&lt;font style=&quot;font-size: 11px;&quot;&gt;Reads uploaded zip files or local folders. Walks directories recursively&lt;/font&gt;)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="-YBbFMyS5UX9r6KZNNoy-14" vertex="1">
           <mxGeometry y="80" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-YBbFMyS5UX9r6KZNNoy-29" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b style=&quot;&quot;&gt;1&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -98,14 +98,11 @@
         <mxCell id="-YBbFMyS5UX9r6KZNNoy-24" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Change detector&lt;/font&gt;&lt;br&gt;(On re-index, only re-processes files that changed since last run (git diff))" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="-YBbFMyS5UX9r6KZNNoy-53" vertex="1">
           <mxGeometry x="32.5" y="240" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-YBbFMyS5UX9r6KZNNoy-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#FF3333;" parent="-YBbFMyS5UX9r6KZNNoy-53" source="-YBbFMyS5UX9r6KZNNoy-18" target="-YBbFMyS5UX9r6KZNNoy-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-YBbFMyS5UX9r6KZNNoy-18" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;Language detector&lt;/font&gt;&lt;br&gt;(Detects if each file is C#, Python, JS, etc. so the right parser is used)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="-YBbFMyS5UX9r6KZNNoy-53" vertex="1">
-          <mxGeometry x="32.5" y="20" width="260" height="80" as="geometry" />
+          <mxGeometry x="36.25" y="120" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-YBbFMyS5UX9r6KZNNoy-20" value="&lt;font style=&quot;font-size: 15px; color: rgb(11, 255, 19);&quot;&gt;File filter&lt;/font&gt;&lt;br&gt;(Ignores .gitignore patterns, node_modules, bin/, obj/ — things that are not source code.)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="-YBbFMyS5UX9r6KZNNoy-53" vertex="1">
-          <mxGeometry x="28.75" y="135" width="267.5" height="80" as="geometry" />
+          <mxGeometry x="32.5" y="7" width="267.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-YBbFMyS5UX9r6KZNNoy-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#FF3333;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -470,6 +467,12 @@
         </mxCell>
         <mxCell id="tYIIxpwcZHrplg3CnAYe-26" value="&lt;b&gt;End&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
           <mxGeometry x="1122" y="6491" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tYIIxpwcZHrplg3CnAYe-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1071" y="178" as="sourcePoint" />
+            <mxPoint x="1071" y="213" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
