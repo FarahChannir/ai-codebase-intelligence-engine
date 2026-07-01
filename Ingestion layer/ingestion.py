@@ -3,6 +3,7 @@ import zipfile
 import tempfile
 import pathspec
 import subprocess
+import os
 
 ##### this will conatin this Steps: 
 #walk_files  and 
@@ -121,29 +122,58 @@ def detect_language(file_path: str) -> str | None:
 
 
 
-def clone_repo(url: str, branch: str | None = None) -> str:
-    dest = tempfile.mkdtemp()
-    cmd = ["git", "clone", "--depth", "1"]
-    if branch:
-        cmd += ["--branch", branch]
-    cmd += [url, dest]
-    print(f"cloning {url} branch={branch or 'default'} into {dest}")
-    subprocess.run(cmd, check=True, capture_output=True)
-    return dest
+# def clone_repo(url: str, branch: str | None = None) -> str:
+#     dest = tempfile.mkdtemp()
+#     cmd = ["git", "clone", "--depth", "1"]
+#     if branch:
+#         cmd += ["--branch", branch]
+#     cmd += [url, dest]
+#     print(f"cloning {url} branch={branch or 'default'} into {dest}")
+#     subprocess.run(cmd, check=True, capture_output=True)
+#     return dest
+
+
+# def clone_repo(url: str, branch: str | None = None, token: str | None = None) -> str:
+#     dest = tempfile.mkdtemp()
+    
+#     if token and url.startswith("https://"):
+#         url = url.replace("https://", f"https://{token}@")
+    
+#     cmd = ["git", "clone", "--depth", "1"]
+#     if branch:
+#         cmd += ["--branch", branch]
+#     cmd += [url, dest]
+    
+#     print(f"cloning branch={branch or 'default'} into {dest}")  
+#     # note: don't print url here anymore — it now contains the token
+#     subprocess.run(cmd, check=True, capture_output=True)
+#     return dest
 
 
 def clone_repo(url: str, branch: str | None = None, token: str | None = None) -> str:
     dest = tempfile.mkdtemp()
-    
+
     if token and url.startswith("https://"):
-        url = url.replace("https://", f"https://{token}@")
-    
-    cmd = ["git", "clone", "--depth", "1"]
+        auth_url = url.replace("https://", f"https://{token}@")
+    else:
+        auth_url = url
+
+    cmd = ["git", "-c", "credential.helper=", "clone", "--depth", "1"]
     if branch:
         cmd += ["--branch", branch]
-    cmd += [url, dest]
-    
-    print(f"cloning branch={branch or 'default'} into {dest}")  
-    # note: don't print url here anymore — it now contains the token
-    subprocess.run(cmd, check=True, capture_output=True)
+    cmd += [auth_url, dest]
+
+    print(f"cloning {url} branch={branch or 'default'} into {dest}")
+
+    try:
+        subprocess.run(
+            cmd,
+            check=True,
+            capture_output=True,
+            env={**os.environ, "GIT_TERMINAL_PROMPT": "0"}
+        )
+    except subprocess.CalledProcessError as e:
+        stderr = e.stderr.decode(errors="replace")
+        raise RuntimeError(f"git clone failed for {url!r}: {stderr}") from None
+
     return dest

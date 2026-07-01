@@ -1,38 +1,41 @@
 from pathlib import Path
 from collections import Counter
+from dotenv import load_dotenv
+import os
 
 from matplotlib import lines
 from ingestion import ALWAYS_IGNORE_DIRS, handle_zip_upload, walk_files, filter_files, detect_language,clone_repo
 
-# repo_root = r"C:\Kabbani\boardgames"
-# files = []
+repo_root = r"C:\xxxx\xxx"
+files = []
 
-# files = walk_files(repo_root)
-
-# # Checkpoint 1: does the raw OS-level directory listing even show BoardGameWebApp?
-# print("--- top-level folders seen by Path ---")
-# for p in Path(repo_root).iterdir():
-#     if p.is_file():
-#         if p.suffix.lower() == ".zip" or p.suffix.lower() == ".rar":
-#             print(f"Found zip file: {p.name}")
-#             zip_dest = handle_zip_upload(str(p))
-#             files += walk_files(zip_dest)
-
-
-# filtered = filter_files(files, repo_root)
+files = walk_files(repo_root)
+load_dotenv()
+token = os.environ.get("GITHUB_TOKEN")
+# Checkpoint 1: does the raw OS-level directory listing even show BoardGameWebApp?
+print("--- top-level folders seen by Path ---")
+for p in Path(repo_root).iterdir():
+    if p.is_file():
+        if p.suffix.lower() == ".zip" or p.suffix.lower() == ".rar":
+            print(f"Found zip file: {p.name}")
+            zip_dest = handle_zip_upload(str(p))
+            files += walk_files(zip_dest)
 
 
-# with open("filter_files.txt", "w", encoding="utf-8") as file:
-#     file.write("\n".join(filtered))
+filtered = filter_files(files, repo_root)
+
+
+with open("filter_files.txt", "w", encoding="utf-8") as file:
+    file.write("\n".join(filtered))
 
 
 
-# files = walk_files(repo_root)
-# filtered = filter_files(files, repo_root)
-# unrecognized = [f for f in filtered if detect_language(f) is None]
-# unrecognized_exts = Counter(Path(f).suffix.lower() for f in unrecognized)
-# for ext, count in unrecognized_exts.most_common(20):
-#     print(ext, count)
+files = walk_files(repo_root)
+filtered = filter_files(files, repo_root)
+unrecognized = [f for f in filtered if detect_language(f) is None]
+unrecognized_exts = Counter(Path(f).suffix.lower() for f in unrecognized)
+for ext, count in unrecognized_exts.most_common(20):
+    print(ext, count)
 
 
 
@@ -41,3 +44,33 @@ path = clone_repo("https://github.com/FarahChannir/TestWork.git", branch="Testbr
 print("cloned to:", path)
 files = walk_files(path)
 print("file count:", len(files))
+
+
+path = clone_repo(
+    "https://github.com/FarahChannir/VASTXML.git",
+    token="correcttoke"
+)
+print("cloned to:", path)
+files = walk_files(path)
+print("file count:", len(files))
+
+
+path = clone_repo(
+    "https://github.com/FarahChannir/VASTXML.git",
+    token="testwrong"
+)
+print("cloned to:", path)
+files = walk_files(path)
+print("file count:", len(files))
+
+# Test 1: bad URL (repo doesn't exist)
+try:
+    clone_repo("https://github.com/FarahChannir/repo-that-does-not-exist.git")
+except RuntimeError as e:
+    print("Test 1 caught:", e)
+
+# Test 2: bad branch
+try:
+    clone_repo("https://github.com/FarahChannir/TestWork.git", branch="branch-that-does-not-exist")
+except RuntimeError as e:
+    print("Test 2 caught:", e)
