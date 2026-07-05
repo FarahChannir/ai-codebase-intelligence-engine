@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 
 from matplotlib import lines
-from ingestion import ALWAYS_IGNORE_DIRS, handle_zip_upload, walk_files, filter_files, detect_language,clone_repo
+from ingestion_test import ALWAYS_IGNORE_DIRS, handle_zip_upload, walk_files, filter_files, detect_language,clone_repo
 
 repo_root = r"C:\xxxx\xxx"
 files = []
