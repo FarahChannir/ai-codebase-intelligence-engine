@@ -6,7 +6,7 @@ import os
 from matplotlib import lines
 from ingestion_test import ALWAYS_IGNORE_DIRS, handle_zip_upload, walk_files, filter_files, detect_language,clone_repo
 
-repo_root = r"C:\xxxx\xxx"
+repo_root = r"path\to\your\repo"
 files = []
 
 files = walk_files(repo_root)
@@ -40,14 +40,14 @@ for ext, count in unrecognized_exts.most_common(20):
 
 
 
-path = clone_repo("https://github.com/FarahChannir/TestWork.git", branch="Testbransh")
+path = clone_repo("git or any cloud  URL", branch="Testbransh")
 print("cloned to:", path)
 files = walk_files(path)
 print("file count:", len(files))
 
 
 path = clone_repo(
-    "https://github.com/FarahChannir/VASTXML.git",
+    "git or any cloud  URL",
     token="correcttoke"
 )
 print("cloned to:", path)
@@ -56,7 +56,7 @@ print("file count:", len(files))
 
 
 path = clone_repo(
-    "https://github.com/FarahChannir/VASTXML.git",
+    "git or any cloud  URL",
     token="testwrong"
 )
 print("cloned to:", path)
@@ -65,12 +65,12 @@ print("file count:", len(files))
 
 # Test 1: bad URL (repo doesn't exist)
 try:
-    clone_repo("https://github.com/FarahChannir/repo-that-does-not-exist.git")
+    clone_repo("git or any cloud  URL", token="testwrong")
 except RuntimeError as e:
     print("Test 1 caught:", e)
 
 # Test 2: bad branch
 try:
-    clone_repo("https://github.com/FarahChannir/TestWork.git", branch="branch-that-does-not-exist")
+    clone_repo("git or any cloud  URL", branch="branch-that-does-not-exist")
 except RuntimeError as e:
     print("Test 2 caught:", e)

@@ -1,7 +1,7 @@
 from LibraryCore.ingestion import ingest
 
 records = ingest(
-    source=r"C:\Kabbani\boardgames",
+    source=r"Path\to\your\folder",
     source_type="folder"
 )
 
