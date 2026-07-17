@@ -4,10 +4,11 @@ import os
 import subprocess
 import tempfile
 import zipfile
+from dataclasses import dataclass      # ← add here
 from pathlib import Path
+from typing import Optional             # ← add here
 
 import pathspec
-
 
 # across the ecosystems this engine targets (.NET, Unity, JS, Python).
 ALWAYS_IGNORE_DIRS: set[str] = {

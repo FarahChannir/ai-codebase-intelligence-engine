@@ -1,4 +1,4 @@
-from LibraryCore.ingestion import ingest
+from core.ingestion import ingest
 
 records = ingest(
     source=r"Path\to\your\folder",
