@@ -28,21 +28,68 @@ def get_python_parser() -> Parser:
     parser = Parser(PY_LANGUAGE)
     return parser
 
+def extract_python_chunks(source_code: str, file_path: str, relative_path: str, source: str) -> list[CodeChunk]:
+    parser = get_python_parser()
+    tree = parser.parse(source_code.encode("utf-8"))
+    root = tree.root_node
 
-get_python_parser()
+    chunks: list[CodeChunk] = []
+    source_lines = source_code.splitlines()
 
+    def get_node_name(node) -> str:
+        for child in node.children:
+            if child.type == "identifier":
+                return child.text.decode("utf-8")
+        return "<unknown>"
+
+    def get_node_text(node) -> str:
+        return "\n".join(source_lines[node.start_point[0]: node.end_point[0] + 1])
+
+    def walk(node):
+        if node.type == "function_definition":
+            chunks.append(CodeChunk(
+                file_path=file_path,
+                relative_path=relative_path,
+                language="python",
+                source=source,
+                content=get_node_text(node),
+                chunk_type="function",
+                name=get_node_name(node),
+                start_line=node.start_point[0] + 1,
+                end_line=node.end_point[0] + 1,
+            ))
+        elif node.type == "class_definition":
+            chunks.append(CodeChunk(
+                file_path=file_path,
+                relative_path=relative_path,
+                language="python",
+                source=source,
+                content=get_node_text(node),
+                chunk_type="class",
+                name=get_node_name(node),
+                start_line=node.start_point[0] + 1,
+                end_line=node.end_point[0] + 1,
+            ))
+
+        for child in node.children:
+            walk(child)
+
+    walk(root)
+    return chunks
 
 if __name__ == "__main__":
-    parser = get_python_parser()
-
-    sample_code = b"""
-def add(a, b):
+    sample_code = """def add(a, b):
     return a + b
 
 class Calculator:
     def multiply(self, a, b):
         return a * b
 """
+    chunks = extract_python_chunks(sample_code, "test.py", "test.py", "local")
+    for c in chunks:
+        print(f"{c.chunk_type}: {c.name} (lines {c.start_line}-{c.end_line})")
 
-    tree = parser.parse(sample_code)
-    print(tree.root_node)
+########## output ##########
+#function: add (lines 1-3)
+#class: Calculator (lines 5-8)
+#function: multiply (lines 6-8)
