@@ -1,0 +1,37 @@
+What is Layer 2 — Parsing & Chunking?
+That's a pointer to a file. Layer 2's job is to actually open that file, read its content, and break it into meaningful pieces that can be embedded and searched later.
+----------------------
+Why can't you just embed the whole file?
+Imagine you have this C# file — 400 lines, 3 classes, 15 methods. A user asks:
+
+"How does the player respawn work?"
+
+If you embedded the entire file as one vector, the embedding represents everything — the audio system, the UI logic, the save system, AND the respawn logic — all blended into one vector. When the search runs, it retrieves the whole file, sends 400 lines to the LLM, and the LLM has to dig through noise to find the 20 relevant lines.
+The result: slow, expensive, imprecise answers.
+Now imagine you chunked that file into individual methods first:
+Chunk 1 → Respawn() method         → 25 lines
+Chunk 2 → PlayAudio() method       → 18 lines  
+Chunk 3 → SaveProgress() method    → 30 lines
+Chunk 4 → UpdateUI() method        → 22 lines
+Each chunk gets its own vector. When the user asks about respawn, only Chunk 1 is retrieved — 25 focused lines, directly relevant, sent to the LLM. The answer is precise, cheap, and citable:
+
+"From GameManager.cs, method Respawn(), lines 145–170..."
+
+That's the entire purpose of Layer 2.
+-----------------------
+Parsing means reading the code as code, not as plain text.
+Plain text sees this:
+l i n e   1 \n l i n e   2 \n ...
+A parser sees this:
+File
+└── Class: GameManager
+    ├── Method: Start()        lines 10–25
+    ├── Method: Update()       lines 27–45
+    └── Method: Respawn()      lines 47–72
+
+-------------------------------
+
+How Layer 2 fits in the full pipeline
+Layer 1 output:          Layer 2 job:              Layer 2 output:
+list[FileRecord]    →    open + parse + chunk   →   list[CodeChunk]
+(1,964 records)          each file                  (~15,000+ chunks)

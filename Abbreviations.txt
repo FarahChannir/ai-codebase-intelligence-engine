@@ -1,0 +1,22 @@
+1- AST = Abstract Syntax Tree
+
+When you write C# code and hit build, the Roslyn compiler doesn't read your code as text — it reads it as a tree of nodes. Each node represents a meaningful piece of your code. That tree is the AST.
+Take this simple C# method:
+csharppublic int Add(int a, int b)
+{
+    return a + b;
+}
+Roslyn (and Tree-sitter) don't see characters on a screen. They see this:
+method_declaration
+├── modifier: "public"
+├── return_type: "int"
+├── name: "Add"
+├── parameters
+│   ├── parameter: int a
+│   └── parameter: int b
+└── body
+    └── return_statement
+        └── binary_expression
+            ├── left: "a"
+            ├── operator: "+"
+            └── right: "b"
